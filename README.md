@@ -19,17 +19,27 @@ After running the command:
 ```sh
 godrive
 ```
-You need to paste the content of `client_secrets.json`
+### You need to paste the content of `client_secrets.json`
 If you don’t have a JSON file, refer to Paragraph 2 at the end.
 
-Now, you have to enter the absolute/full path of file or directory :
+### Now, you have to enter the absolute/full path of file or directory :
 for example : /home/rohan/directory_one/file_one
 
-You can also upload a full directory, but to save time uploading files well be better than directory, because we will first create zip of your directory.
+You can also upload a full directory but, to save time uploading files well be better than directory, because we will first create zip of your directory.
 
 ### To upload multiple files, at once :
 1. If all the files are in same Directory
-   `<path_to_file1>$
+   `<path_to_file1>$<name_of_file2>$<name_of_file3>.........`
+
+2. If the files are in different Directories
+   `<path_to_file1>$<path_to_file2>$<path_to_file3>.........`
+To avoid conflicts, leave the custom folder name empty.
+
+### Authentication Requirement
+You will be asked to authenticate with the account where you want to upload data.
+Make sure to authenticate only with the accounts that are added to the Consent Screen.
+
+---------------------------------------------
 
 ## 2. How to Get client_secrets.json?
 In Browser, go to :
