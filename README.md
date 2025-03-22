@@ -33,6 +33,7 @@ You can also upload a full directory but, to save time uploading files well be b
 
 2. If the files are in different Directories
    `<path_to_file1>$<path_to_file2>$<path_to_file3>.........`
+   
 To avoid conflicts, leave the custom folder name empty.
 
 ### Authentication Requirement
